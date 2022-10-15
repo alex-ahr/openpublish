@@ -6,6 +6,8 @@
 
 - [ ] Process notes before feeding into `hugo-obsidian`
     - [ ] Add `title` key to notes that don't have them
+- [ ] Minimum Viable Product
+    - [ ] Submodule for content
     
 ### long(er)-term
 
@@ -17,3 +19,5 @@
         - However, if you move the dir to somewhere else (say, `assets/content`) the output is different (7 notes, instead of 32)
 - [ ] Note list on left side
 - [ ] More documentation
+    - [ ] Guide for using obsidian-git for Obsidian-Sync-like service
+    - [ ] Guide for using submodule for private vault
