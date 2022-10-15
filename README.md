@@ -1,19 +1,17 @@
-# Quartz
+# Obsidian OpenPublish
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+## TODO
 
-1. Extremely fast natural-language search
-2. Customizable and hackable design based on Hugo
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in CJK + Latex Support and Admonition-style callouts
-5. Support for both Markdown Links and Wikilinks
+### short-term
 
-Check out some of the [amazing gardens that community members](https://quartz.jzhao.xyz/notes/showcase/) have published with Quartz!
+- [ ] Process notes before feeding into `hugo-obsidian`
+    - [ ] Add `title` key to notes that don't have them
+    
+### long(er)-term
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
-
-🔗 Get Started: https://quartz.jzhao.xyz/
-
-![Quartz Example Screenshot](./screenshot.png)*Quartz Example Screenshot*
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+- [ ] Make wiki-links appear in search
+- [ ] `hugo-obsidian`
+    - [ ] Make `title` value the name of the file if it doesn't have that key
+    - [ ] Fix hard-coded `./content` directory
+        - When serving the default Quartz notes, all is normal if you have the content dir at the root
+        - However, if you move the dir to somewhere else (say, `assets/content`) the output is different (7 notes, instead of 32)
