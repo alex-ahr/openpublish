@@ -15,3 +15,4 @@
     - [ ] Fix hard-coded `./content` directory
         - When serving the default Quartz notes, all is normal if you have the content dir at the root
         - However, if you move the dir to somewhere else (say, `assets/content`) the output is different (7 notes, instead of 32)
+- [ ] Note list on left side
